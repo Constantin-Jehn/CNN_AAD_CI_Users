@@ -30,7 +30,7 @@ Run `python setup.py install` in the root directory
 
 Workflow
 ------------
-**Download hdf5 database file**
+**1. Download hdf5 database file**
 
 The dataset was created with the src/data/create_dataset.py file.
 For that you need th raw_input data, which can be made available upon reasonable request.
@@ -40,22 +40,22 @@ It contains preprocessed data as well as raw data.
 The downloaded file should be put in the data/processed folder.
 
 
-**Model training**
+**2. Model training**
 
 The model training is done with the src/training/train_cnn.py or src/training/train_ridge.py file.
 
-**Model evaluation**
+**3. Model evaluation**
 
 Evaluating the models on different window-sized data is done with the src/evaluation/eval_cnn.py or src/evaluation/eval_ridge.py file.
 Accuracies as well as reconstruction scores are saved as pickle files, which can be used for further analysis.
 
 The effectiveness of employing an SVM for the classification of the attention state is evaluated with the src/evaluation/eval_svm.py file.
 
-**TRF analysis**
+**4. TRF analysis**
 
 Precalcute coeficients using the 'calc_trf_coefs' function from src/evluation/utils.py
 
-**Plotting**
+**5. Plotting**
 
 All plots were created from jupyter notebooks in the notebooks folder.
 
