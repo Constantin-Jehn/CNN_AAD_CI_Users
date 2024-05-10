@@ -1,0 +1,134 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+/reports/figures/overview/*
+/reports/figures/alignment/*
+/reports/figures/drift/*
+/reports/figures/responses/*
+/reports/figures/ridge/*
+/reports/figures/complete_dataset/*
+/reports/figures/learnable_thresholding/*
+/reports/figures/trfs/*
+!/reports/figures/ridge/.gitkeep
+/reports/figures/cnn/*
+/reports/figures/ica/*
+/reports/figures/cnn/*
+/reports/figures/ica/*
+!/reports/figures/ica/.gitkeep
+/reports/metrics/*
+/reports/figures/behaviour_neural/*
+/reports/figures/cohort/*
+/reports/figures/quantization/*
+/models/cnn/quantized/*
+
+/models/cnn/checkpoints/*
+!/models/cnn/checkpoints.gitkeep
+/models/ridge/*
+/models/forward_model/*
+/models/null_forward_model/*
+/data/cohort/*
+/models/forward/*
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# DotEnv configuration
+.env
+
+# Database
+*.db
+*.rdb
+
+# Pycharm
+.idea
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+
+# Jupyter NB Checkpoints
+.ipynb_checkpoints/
+
+# exclude data from source control by default
+!/data/.gitkeep
+/data/processed/*
+!/data/processed/.gitkeep
+!/data/raw_input/.gitkeep
+/data/stimuli/*
+!/data/stimuli/.gitkeep
+/data/etard_ica/*
+/data/ica/*
+
+/figures/*
+#/models/ridge/*
+/models/ridge/concat/*
+!/models/ridge/concat/.gitkeep
+/models/ridge/healty_reference/*
+
+
+/models/ridge/windowed/*
+!/models/ridge/windowed/.gitkeep
+
+
+# Mac OS-specific storage files
+.DS_Store
+
+# vim
+*.swp
+*.swo
+
+# Mypy cache
+.mypy_cache/
